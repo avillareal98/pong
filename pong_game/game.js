@@ -14,6 +14,7 @@ function preload() {
 	game.load.audio("hit_2", ["assets/hit_2.wav", "assets/hit_2.ogg"]);
 }
 
+//create sprites
 function create() {
 	paddle1 = create_paddle(0, game.world.centerY);
 	paddle2 = create_paddle(game.world.width - 5, game.world.centerY);
